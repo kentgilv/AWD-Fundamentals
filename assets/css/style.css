@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 8px #000000;
+    font-size: 14px;
+    color: white;
+}
+
+#logo {
+    width: 40px;
+}
+
+body {
+    background-image: url(/assets/img/background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 25px 100px;
+}
+
+li {
+    margin: 10px;
+}
+
+header {
+    margin-right: 100px;
+}
+
+#hero-section {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+#greetings {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #fbe568;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-style: italic;
+    background-color: #50C4ED;
+    color: white;
+    border-radius:  8px;
+    border-style: none;
+    box-shadow: 2px 2px 4px black;
+    
+}
+
+#hero-image {
+    width: 400px;
+
+}
