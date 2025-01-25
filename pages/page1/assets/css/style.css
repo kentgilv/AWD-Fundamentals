@@ -68,12 +68,14 @@ li a {
     padding: 1rem;
 }
 
+#demo {
+    border-bottom: solid 3px white;
+}
 
 header {
     margin: 3rem 7rem 3rem 7rem;
     justify-content: center;
     align-items: center;
-    
 }
 h1 {
     font-size: 50px;
