@@ -28,17 +28,27 @@
 
     <header>
         <h1>4 Fundamentals of Computer Programming <br><span>Using JavaScript</span></h1>
+        <p>"These are the important concepts that every programmer must use <br> in order to create and develop a working program."</p>
     </header>
 
     <section class="main">
         <div class="one-and-two">
         <div class="container">
             <h2>1 Variable Declaration</h2>
-            <p>Variables are containers for storing data values, a memory location for a data type. Variables are created using a declaration or keyword that varies across languages.
+            <p>Variable Declaration is a statement that provides the variable name and its type, allowing the program to allocate memory for storing values. Variables are containers for storing data values, a memory location for a data type. Variables are created using a declaration or keyword that varies across languages.
+
+            <p class="demonstration">Demonstration</p>
+            <p>Right click webpage then click inspect. Click the arrow menu at top right and click Sources. Lastly locate the JavaScript file to view the variable and function declaration.</p>
         </div>
         <div class="container">
             <h2>2 Input and Output</h2>
             <p>Input and output, or I/O is the communication between an information processing system, such as a computer, and the outside world, possibly a human or another information processing system. Inputs are the signals or data received by the system and outputs are the signals or data sent from it.</p>
+
+            <p class="demonstration">Demonstration</p>
+            <label for="userInput">Enter any word: </label>
+            <input type="text" id="userInput">
+            <button onclick="showInput()">Submit</button>
+            <p id = "output"></p>
 
         </div>
         </div>
@@ -46,16 +56,26 @@
         <div class="three-and-four">
         <div class="container">
             <h2>3 Conditional Statements</h2>
-            <p>Conditional statements in programming are used to control the flow of a program based on certain conditions. These statements allow the execution of different code blocks depending on whether a specified condition evaluates to true or false, providing a fundamental mechanism for decision-making in algorithms. </p>
+            <p>Conditional statements are used to control the flow of a program based on certain conditions. These statements allow the execution of different code blocks depending on whether a specified condition evaluates to true or false, providing a fundamental mechanism for decision-making in algorithms. </p>
+            <p class="demonstration">Demonstration</p>
+            <label for = "numberInput">Enter a number: </label>
+        <input type = "number" id="numberInput">
+        <button onclick="checkOddEven()">Check if its Odd or Even</button>
+        <p id ="conditionalOutput"></p>
         </div>
 
         <div class="container">
             <h2>4 Looping Statemnets</h2>
-            <p>Loops or Iteration Statements in Programming are helpful when we need a specific task in repetition. They're essential as they reduce hours of work to seconds</p>
+            <p>Loops or Iteration Statements are helpful when we need a specific task in repetition. They're essential as they reduce hours of work to seconds. Loops are fundamental to the concept of iteration in programming, enhancing code efficiency, readability and promoting the reuse of code logic.</p>
+
+            <p class="demonstration">Demonstration</p>
+            <label for="userInput">Click button to: </label>
+        <button onclick="displayNumbers()">Display Numbers 1-7</button>
+        <ul id="loopOutput"></ul>
         </div>
       </div>
     </section> 
 
-    <script src="../pages/page1/assets/js/scripts.js"></script>
+    <script src="../page1/assets/js/scripts.js"></script>
 </body>
 </html>
