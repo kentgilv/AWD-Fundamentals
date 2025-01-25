@@ -127,6 +127,15 @@ h2 {
     width: 7rem;
 
 }
+#back {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5em;
+}
 
 button {
     padding: 2px;
@@ -136,6 +145,17 @@ button {
     border-radius:  8px;
     border-style: none;
     box-shadow: 2px 2px 4px black;
+}
+
+button a {
+    text-decoration: none;
+    text-shadow:2px 2px 4px #000000;
+}
+
+button:hover, button a:hover {
+    background-color: rgb(198, 242, 255);
+    color: rgb(54, 53, 53);
+    text-shadow: none;
 }
 
 input {
@@ -155,3 +175,4 @@ header p {
     font-size: 1.5em;
     margin-left: 10rem;
 }
+
