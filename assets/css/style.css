@@ -35,10 +35,17 @@ nav {
     height: 5vw;
 }
 
-.logo-title:hover {
-    background-color: rgba(123, 200, 255, 0.5);
+.logo-title:hover, li a:hover {
+    background-color: rgba(173, 221, 255, 0.779);
     box-shadow: 4px #000000;
     border-radius: 5px;
+    color: #141414;
+    text-shadow: none;
+}
+
+div p:hover {
+    text-shadow: none;
+    color: #141414;
 }
 
 nav a {
@@ -57,30 +64,19 @@ li {
     margin: 20px;
 }
 
-li a:hover {
-    background-color: rgba(123, 200, 255, 0.5);
-    box-shadow: 4px #000000;
-    border-radius: 5px;
+li a {
+    padding: 1rem;
 }
-
-header {
-    margin-right: 100px;
-}
-
-span {
-    background-color: #fbe568;
-    color: #ffffff;
-    font-style: italic;
-    border-radius: 5px;
-    padding: 1px;
-    text-shadow:2px 2px 4px #000000;
-}
-
 
 #hero-section {
     display: flex;
-    margin-left: 150px;
-    margin-top: 40px;
+    margin: 3rem 5rem 3rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin-right: 5rem;
 }
 
 #greetings {
@@ -90,14 +86,22 @@ span {
     font-style: italic;
 }
 
+#description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 h1 {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-#description {
-    font-size: 20px;
-    margin-bottom: 10px;
+span {
+    background-color: #fbe568;
+    color: #ffffff;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 1px;
+    text-shadow:2px 2px 4px #000000;
 }
 
 button {
@@ -110,8 +114,19 @@ button {
     box-shadow: 2px 2px 4px black;
 }
 
+button a {
+    text-decoration: none;
+    text-shadow:2px 2px 4px #000000;
+}
+
+button:hover, button a:hover {
+    background-color: rgb(198, 242, 255);
+    color: rgb(54, 53, 53);
+    text-shadow: none;
+}
+
 #hero-image {
     max-width: 100%;
-    height: 75vh;
+    height: 60vh;
     transform: rotateY(180deg);
 }
